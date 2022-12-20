@@ -1,0 +1,36 @@
+1	Average subarray	
+https://leetcode.com/problems/maximum-average-subarray-i/	
+Take end pointer to desired k value and then calculate average for each value and print the maximum result (end pointer means i=0;i<n;i<s.size() loop)
+
+2	Contains Duplicate ||	
+https://leetcode.com/problems/contains-duplicate-ii/	Use map to store the index and then check if value exists ,if it exists then check for the corresponding
+value and return yes if given condition satisfied
+
+3	substrings-of-size-three-with-distinct-characters	
+https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/
+
+4	longest-substring-without-repeating-characters	
+https://leetcode.com/problems/longest-substring-without-repeating-characters/	check for every element in map if it exists left to start pointer 
+then do nothing else update the start pointer by 1 use its corresponding map value 
+
+5	repeated-dna-sequences	
+https://leetcode.com/problems/repeated-dna-sequences/	
+
+6	minimum-size-subarray-sum	
+https://leetcode.com/problems/minimum-size-subarray-sum/	
+
+7	subarray-product-less-than-k	
+https://leetcode.com/problems/subarray-product-less-than-k/	
+
+8	longest-repeating-character-replacement	
+https://leetcode.com/problems/longest-repeating-character-replacement/description/	
+
+9	permutation-in-string	
+https://leetcode.com/problems/permutation-in-string/description/	
+
+10	longest-repeating-character-replacement	
+https://leetcode.com/problems/longest-repeating-character-replacement/
+
+11	find-all-anagrams-in-a-string	
+https://leetcode.com/problems/find-all-anagrams-in-a-string/description/	Same as permutaion in a string just a minor change, vector leke return true ki 
+jagah Windowstart push kardo
